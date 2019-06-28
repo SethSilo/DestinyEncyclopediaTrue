@@ -1,91 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Peuples</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      /* Navbar container */
+      .navbar {
+        overflow: hidden;
+        background-color: #333;
+      }
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Peuples</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-    }
+      /* Links inside the navbar */
+      .navbar a {
+        float: left;
+        font-size: 17px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
 
-    .topnav {
-      overflow: hidden;
-      background-color: #333;
-    }
+      /* The dropdown container */
+      .dropdown {
+        float: center;
+        overflow: hidden;
+      }
 
-    .topnav a {
-      float: left;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-    }
+      /* Dropdown button */
+      .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
 
-    .topnav a:hover {
-      background-color: #ddd;
-      color: black;
-    }
+        margin: 0;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        top: 48px;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
 
-    .topnav a.active {
-      background-color: #4caf50;
-      color: white;
-    }
-  </style>
-  <style>
-    body {
+      /* Links inside the dropdown */
+      .dropdown-content a {
+        float: none;
+        color: white;
+        background: #333;
+        padding: 14px 20px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
 
-      background-image: url(img/backgroundindex.png)
-    }
-  </style>
-</head>
+      /* Add a grey background color to dropdown links on hover */
+      .dropdown-content a:hover {
+        background-color: #4caf50;
+      }
 
-<body>
-  <div class="topnav">
-    <a href="./index.html">Accueil</a>
-    <a href="gardiens.html">Gardiens</a>
-    <a href="arsenal.html">Arsenal</a>
-    <a href="activites.html">Activités</a>
-    <a href="factions.html">Factions</a>
-    <a class="active" href="peuples.html">Peuples</a>
-    <a href="lieux.html">Lieux</a>
-    <a href="adversaires.html">Adversaires</a>
-    <a href="about.html">A propos</a>
-  </div>
+      /* Show the dropdown menu on hover */
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
 
-  <h1>
-    <font color="white">Peuples</font>
-  </h1>
+      .navbar a.active {
+        background-color: #4caf50;
+        color: white;
+      }
+    </style>
+    <style>
+      body {
+        background-image: url(img/backgroundindex.png);
+      }
+    </style>
+  </head>
 
+  <body>
+    <div class="navbar">
+      <a href="./index.html">Accueil</a>
+      <a href="gardiens.html">Gardiens</a>
+      <a href="arsenal.html">Arsenal</a>
+      <a href="activites.html">Activités</a>
+      <a href="factions.html">Factions</a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <a class="active">Peuples</a>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+        <a href="lieux.html">Lieux</a>
+        <a href="adversaires.html">Adversaires</a>
+        <a href="about.html">A propos</a>
+      </div>
+    </div>
+    <h1>
+      <font color="white">Peuples</font>
+    </h1>
 
-  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis explicabo blanditiis dicta necessitatibus quidem quo
-    modi consequuntur atque ducimus, nesciunt nulla aspernatur amet quisquam sequi sed, natus facilis repellendus quasi.
-    Amet tenetur sit commodi ea molestias harum nulla dolor, culpa facere ex aperiam quod minima reprehenderit
-    laboriosam veniam aliquam magnam natus libero velit ipsa illo exercitationem voluptatibus voluptate necessitatibus.
-    Autem!
-    Alias possimus nisi sit saepe tempora magnam explicabo, dolores iusto quae quas illo unde doloribus ratione.
-    Possimus reprehenderit animi aliquam laborum mollitia quas aperiam, odio vero, ipsa quasi nesciunt eos.
-    Voluptatum nobis facilis sapiente, exercitationem alias hic officiis, autem distinctio, magni necessitatibus ab
-    omnis sint. Assumenda magni, ex eos nemo, odit quo natus vero autem libero reiciendis, sequi modi architecto?
-    Praesentium tenetur distinctio rerum similique unde, voluptate incidunt, dolores pariatur quas fugit repellendus
-    aliquid commodi temporibus iusto nam deserunt? Eum laborum doloremque corporis est, voluptatem ex quaerat officia
-    adipisci nobis.
-    Laudantium voluptates quis voluptatibus impedit dolores commodi consequuntur qui labore nobis deleniti, atque
-    maiores? Quisquam rerum voluptas voluptatem optio veniam consequuntur molestiae atque repellendus debitis culpa,
-    eveniet cupiditate quidem harum.
-    Expedita numquam animi odit cupiditate exercitationem facilis vel, error eius molestias ab possimus id totam dolorum
-    placeat harum molestiae quos quas. Eveniet corporis mollitia labore rem, quidem ullam laudantium expedita.
-    Quisquam, iure. Deserunt inventore ullam aut temporibus labore explicabo expedita impedit. Laboriosam vero
-    cupiditate, nobis nostrum repellendus fugiat sunt ullam soluta fugit quam. Laboriosam ut, quos nihil tempora
-    repellat quidem.
-    Dolorum, quaerat sit recusandae quos magnam nihil ipsum similique repellendus repudiandae libero commodi. Tenetur,
-    unde, excepturi ratione modi soluta doloribus delectus inventore nostrum nesciunt ea eaque at nobis magni voluptas!
-  </p>
-
-</body>
-
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis explicabo
+      blanditiis dicta necessitatibus quidem quo modi consequuntur atque
+      ducimus, nesciunt nulla aspernatur amet quisquam sequi sed, natus facilis
+      repellendus quasi. Amet tenetur sit commodi ea molestias harum nulla
+      dolor, culpa facere ex aperiam quod minima reprehenderit laboriosam veniam
+      aliquam magnam natus libero velit ipsa illo exercitationem voluptatibus
+      voluptate necessitatibus. Autem! Alias possimus nisi sit saepe tempora
+      magnam explicabo, dolores iusto quae quas illo unde doloribus ratione.
+      Possimus reprehenderit animi aliquam laborum mollitia quas aperiam, odio
+      vero, ipsa quasi nesciunt eos. Voluptatum nobis facilis sapiente,
+      exercitationem alias hic officiis, autem distinctio, magni necessitatibus
+      ab omnis sint. Assumenda magni, ex eos nemo, odit quo natus vero autem
+      libero reiciendis, sequi modi architecto? Praesentium tenetur distinctio
+      rerum similique unde, voluptate incidunt, dolores pariatur quas fugit
+      repellendus aliquid commodi temporibus iusto nam deserunt? Eum laborum
+      doloremque corporis est, voluptatem ex quaerat officia adipisci nobis.
+      Laudantium voluptates quis voluptatibus impedit dolores commodi
+      consequuntur qui labore nobis deleniti, atque maiores? Quisquam rerum
+      voluptas voluptatem optio veniam consequuntur molestiae atque repellendus
+      debitis culpa, eveniet cupiditate quidem harum. Expedita numquam animi
+      odit cupiditate exercitationem facilis vel, error eius molestias ab
+      possimus id totam dolorum placeat harum molestiae quos quas. Eveniet
+      corporis mollitia labore rem, quidem ullam laudantium expedita. Quisquam,
+      iure. Deserunt inventore ullam aut temporibus labore explicabo expedita
+      impedit. Laboriosam vero cupiditate, nobis nostrum repellendus fugiat sunt
+      ullam soluta fugit quam. Laboriosam ut, quos nihil tempora repellat
+      quidem. Dolorum, quaerat sit recusandae quos magnam nihil ipsum similique
+      repellendus repudiandae libero commodi. Tenetur, unde, excepturi ratione
+      modi soluta doloribus delectus inventore nostrum nesciunt ea eaque at
+      nobis magni voluptas!
+    </p>
+  </body>
 </html>
