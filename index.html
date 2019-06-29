@@ -1,379 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/home.css" />
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <meta name="description" content="L'Encyclopédie Destiny en français" />
   <title>Index</title>
-  <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./css/home.css" />
 
-  <style>
 
-  
-   
-   .context-dark, .bg-gray-dark, .bg-primary {
-    color: rgba(255, 255, 255, 0.8);
-}
 
-.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
-    color: #ffffff;
-}
-.nav-list li {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
 
-.nav-list li a:hover:before {
-    margin-left: 0;
-    opacity: 1;
-    visibility: visible;
-}
-
-ul, ol {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.social-inner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: 23px;
-    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.5);
-}
-.social-container .col {
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-.nav-list li a:before {
-    content: "\f14f";
-    font: 400 21px/1 "Material Design Icons";
-    color: #4d6de6;
-    display: inline-block;
-    vertical-align: baseline;
-    margin-left: -28px;
-    margin-right: 7px;
-    opacity: 0;
-    visibility: hidden;
-    transition: .22s ease;
-}
-
-      .mon-titre {
-color: white;
-font-size: 70px;
-      }
-         
-footer    {
-  position:fixed;
-  bottom:0px;
-  width: 100%;
-  height: 100px;
-}   
-  </style>
-
-  <style>
-    body {
-
-      background-image: url(img/backgroundindex.png)
-    }
-  </style>
-  
 </head>
 
 <body>
-   
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">Navigation</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-    
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="./index.html"
-                  >Accueil <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    Gardiens
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="./Gardiens/classes.html">Classes</a>
-                      <a class="dropdown-item" href="./Gardiens/races.html">Races</a>
-                    <a class="dropdown-item" href="./Gardiens/doctrines.html">Doctrines</a>
-                    <a class="dropdown-item" href="./Gardiens/spectres.html">Spectres</a>
-                  </div>
-                </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Arsenal
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="./Arsenal/legendary_weapons.html">Armes légendaires</a>
-                  <a class="dropdown-item" href="./Arsenal/legendary_armors.html">Armures légendaires</a>
-                  <a class="dropdown-item" href="./Arsenal/exotic_weapons.html">Armes exotiques</a>
-                  <a class="dropdown-item" href="./Arsenal/exotic_armors.html">Armures exotiques</a>
-                  <a class="dropdown-item" href="./Arsenal/vehicles.html">Véhicules</a>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    Factions
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" .active href="./Factions/Alliés/allied.html">Alliés</a> 
-                    <a class="dropdown-item" href="./Factions/Ennemis/foes.html">Ennemis</a>
-                  </div>
-                </li>
-              </li>
-    
-              <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    Lieux
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="./Lieux/city.html">La Cité</a>
-                    <a class="dropdown-item" href="./Lieux/dreaming_city.html">La Cité des rêves</a>
-                    <a class="dropdown-item" href="./Lieux/earth.html">La Terre</a>
-                    <a class="dropdown-item" href="./Lieux/nessos.html">Nessos</a>
-                    <a class="dropdown-item" href="./Lieux/titan.html">Titan</a>
-                    <a class="dropdown-item" href="./Lieux/mercury.html">Mercure</a>
-                    <a class="dropdown-item" href="./Lieux/mars.html">Mars</a>
-                    <a class="dropdown-item" href="./Lieux/farm.html">La Ferme</a>
-                    <a class="dropdown-item" href="./Lieux/tangled_coast.html">La Côte Enchevêtrée</a>
-                    <a class="dropdown-item" href="./Lieux/io.html">Io</a>
-                  </div>
-                </li>
-    
-                <li class="nav-item dropdown">
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href="#"
-                      id="navbarDropdown"
-                      role="button"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      Activités
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="./Activités/gambit.html">Gambit</a>
-                      <a class="dropdown-item" href="./Activités/justice.html">Justice</a>
-                      <a class="dropdown-item" href="./Activités/menagerie.html"> Menagerie        </a>
-                      <a class="dropdown-item" href="./Activités/nights.html">  Nuits noires       </a>
-                      <a class="dropdown-item" href="./Activités/pvp.html">   L'Epreuve      </a>
-                      <a class="dropdown-item" href="./Activités/raids.html">   Raids      </a>
-                      <a class="dropdown-item" href="./Activités/raids.html">   Assauts      </a>
-                      <a class="dropdown-item" href="./Activités/ascendant.html">  Défis Ascendants       </a>
-                  
-                    </div>
-                  </li>
-    
-                  <li class="nav-item active">
-                      <a class="nav-link" href="./A propos/about.html"
-                        >A propos <span class="sr-only">(current)</span></a
-                      >
-                    </li>
-    
-    
-    
-    
-    
-    
-    
-            
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input
-                class="form-control mr-sm-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-                Search
-              </button>
-            </form>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navigation</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="./index.html">Accueil <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Gardiens
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./Gardiens/classes.html">Classes</a>
+            <a class="dropdown-item" href="./Gardiens/races.html">Races</a>
+            <a class="dropdown-item" href="./Gardiens/doctrines.html">Doctrines</a>
+            <a class="dropdown-item" href="./Gardiens/spectres.html">Spectres</a>
           </div>
-        </nav>
-    
-        <h1 class="mon-titre" >
-          Accueil
-           
-        </h1>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum neque
-          maxime, beatae corporis nobis nam est animi. Incidunt, quidem! Ducimus
-          harum eveniet, dolorum aliquam doloremque nihil quibusdam officia atque?
-          Architecto! Vel incidunt amet perferendis in, animi eius hic veniam
-          asperiores laudantium magnam cumque natus unde totam quo beatae porro fuga
-          fugiat eveniet consequatur quaerat quas deserunt molestiae. Mollitia,
-          similique sapiente? Unde, aperiam debitis saepe, corporis reiciendis
-          dignissimos ducimus neque quod libero, commodi consectetur labore aut!
-          Voluptas, officia consequatur! Voluptates in ex, facere vel ab quae!
-          Quisquam consequatur nemo rem culpa! Mollitia, illum, sit voluptatum porro
-          magni voluptas animi architecto consequatur ex velit cumque similique nisi
-          debitis ea, minima nulla. Atque error exercitationem fugiat natus commodi?
-          Fugiat esse voluptatum id culpa. In saepe consequuntur hic, neque quae,
-          animi dolore quibusdam pariatur architecto doloribus veniam aperiam, amet
-          libero rerum. Eos eligendi iste delectus pariatur? Asperiores quis dolores
-          amet reiciendis distinctio odio quibusdam? Illum minus ipsa dolores
-          nostrum enim expedita distinctio magnam optio omnis? Eveniet voluptatum
-          porro omnis quibusdam aliquam fugiat dignissimos necessitatibus doloribus
-          corporis sed quas illo illum consequuntur, quam quod rerum. Facere tempore
-          voluptates officiis quidem ex odio optio natus hic laborum delectus
-          praesentium rerum facilis error repellendus aspernatur illo, odit ab ipsam
-          ratione molestias, a cum? Libero id reiciendis autem. Nisi voluptate unde
-          aliquam distinctio esse, quidem quod mollitia odit obcaecati officia
-          consectetur nihil iusto repudiandae laudantium nemo ipsum! Qui culpa
-          aperiam, exercitationem nulla suscipit reprehenderit cumque totam sit hic!
-          Ipsum cupiditate dolor, sint explicabo pariatur ab deserunt doloremque,
-          optio at, quos quaerat laudantium quidem eos facere nobis assumenda enim
-          vel! Esse ratione labore aperiam? Est eos sunt eius dolorem?
-        </p>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Arsenal
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./Arsenal/legendary_weapons.html">Armes légendaires</a>
+            <a class="dropdown-item" href="./Arsenal/legendary_armors.html">Armures légendaires</a>
+            <a class="dropdown-item" href="./Arsenal/exotic_weapons.html">Armes exotiques</a>
+            <a class="dropdown-item" href="./Arsenal/exotic_armors.html">Armures exotiques</a>
+            <a class="dropdown-item" href="./Arsenal/vehicles.html">Véhicules</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Factions
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" .active href="./Factions/Alliés/allied.html">Alliés</a>
+            <a class="dropdown-item" href="./Factions/Ennemis/foes.html">Ennemis</a>
+          </div>
+        </li>
+        </li>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam maxime accusamus ducimus, voluptas soluta ad iusto, sint explicabo placeat repudiandae voluptate animi eius est voluptatum accusantium excepturi? Corrupti, modi maiores?
-        Voluptatum, velit minima iure consequuntur exercitationem at dicta aliquam sit perferendis enim, architecto facere non iste odit perspiciatis cupiditate doloribus molestiae temporibus alias deserunt repudiandae ducimus animi accusamus laborum! Veritatis?
-        Pariatur perspiciatis deleniti quod laboriosam, porro obcaecati ut, cum, rem autem minima magni similique ea iste alias! Fuga id necessitatibus corrupti! Quo rerum quod exercitationem omnis nesciunt impedit? Dolor, reprehenderit.
-        Molestias provident temporibus atque fugiat error laboriosam harum sed ut assumenda! Blanditiis consequuntur doloremque quibusdam autem inventore dolorem, ducimus reiciendis neque dicta iusto ipsum, quisquam aspernatur praesentium aliquid unde assumenda.
-        Error nemo fugit amet aliquam aut illum porro consequatur. Fugiat, possimus cum eveniet laboriosam cumque dignissimos delectus, quia rem animi quas nobis soluta at est, cupiditate incidunt? Odio, maxime magni!
-        Explicabo ut voluptas nam maiores accusantium. Consectetur, nihil accusamus. Dignissimos, porro! Placeat quod ullam quasi odio, assumenda id alias dignissimos blanditiis sequi ex vitae sit atque autem officia unde quis?
-        Itaque porro similique officiis laudantium odio quod soluta corrupti reiciendis dolores iusto? Cumque voluptatibus expedita quibusdam exercitationem id voluptatum consequuntur minima? Quisquam quos vero, explicabo commodi maiores dicta! Quod, incidunt?
-        Quo iste unde nemo alias tempora corrupti et fugiat accusantium minima reprehenderit cumque aliquam quas, excepturi voluptatem commodi, veritatis dicta explicabo itaque! Repellendus, modi? Cum obcaecati sunt voluptatibus saepe quasi!
-        Voluptatem maxime beatae, ex aspernatur iure nam repudiandae dolore, repellendus ipsam quisquam pariatur aliquid consequuntur quo adipisci illum quas eveniet sunt doloribus! Placeat aut alias voluptate consectetur velit perferendis nisi!
-        Dignissimos aliquid aut sint unde ipsum, delectus amet deleniti, quis esse vitae rem incidunt molestias ullam culpa qui? Vel veritatis officia voluptates ex nesciunt labore, aut alias assumenda tenetur aliquid?
-        Nostrum a nam cupiditate voluptas repudiandae eum, voluptatibus consectetur dolorem. Possimus veniam dolore facilis porro excepturi magnam cum laborum, voluptatibus libero illo alias similique vel quasi consectetur eius asperiores! Totam.
-        Sed nihil nam vero, eveniet illum dicta nobis cum rem in nisi repellat eum tenetur iste repudiandae laborum fuga recusandae dolorem quo ducimus ratione incidunt repellendus harum impedit. Accusantium, quisquam!
-        Doloribus, distinctio laborum a eius sed iusto facilis mollitia iste consequatur vel. Accusamus at maiores, sapiente omnis hic molestiae voluptatibus, mollitia aliquam accusantium veniam itaque. Provident rerum inventore mollitia cum!
-        Cumque corrupti, a praesentium id molestias aliquid mollitia architecto voluptatibus illum! Magnam ad, porro quam at, repudiandae laboriosam odio voluptatibus quia illum error veniam? Nisi tempore earum exercitationem eos nulla.
-        Nam, et cumque doloribus minima dolor omnis suscipit necessitatibus nihil minus. Nisi culpa, laboriosam maiores, iure quos provident tenetur molestias nemo at, dolores incidunt. Odio fuga autem esse laborum nam.</p>
-        
-        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Lieux
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./Lieux/city.html">La Cité</a>
+            <a class="dropdown-item" href="./Lieux/dreaming_city.html">La Cité des rêves</a>
+            <a class="dropdown-item" href="./Lieux/earth.html">La Terre</a>
+            <a class="dropdown-item" href="./Lieux/nessos.html">Nessos</a>
+            <a class="dropdown-item" href="./Lieux/titan.html">Titan</a>
+            <a class="dropdown-item" href="./Lieux/mercury.html">Mercure</a>
+            <a class="dropdown-item" href="./Lieux/mars.html">Mars</a>
+            <a class="dropdown-item" href="./Lieux/farm.html">La Ferme</a>
+            <a class="dropdown-item" href="./Lieux/tangled_coast.html">La Côte Enchevêtrée</a>
+            <a class="dropdown-item" href="./Lieux/io.html">Io</a>
+          </div>
+        </li>
 
-        <footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
-            <div class="container">
-              <div class="row row-50">
-                <div class="col-md-4 col-xl-5">
-                  <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src="images/agency/logo-inverse-140x37.png" alt="" width="140" height="50" srcset="images/agency/logo-retina-inverse-280x74.png 2x"></a>
-                    <p>We are an award-winning creative agency, dedicated to the best result in web design, promotion, business consulting, and marketing.</p>
-                    <!-- Rights-->
-                    <p class="rights"><span>©  </span><span class="copyright-year">2018</span><span> </span><span>Waves</span><span>. </span><span>All Rights Reserved.</span></p>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <h5>Contacts</h5>
-                  <dl class="contact-list">
-                    <dt>Address:</dt>
-                    <dd>798 South Park Avenue, Jaipur, Raj</dd>
-                  </dl>
-                  <dl class="contact-list">
-                    <dt>email:</dt>
-                    <dd><a href="mailto:#">dkstudioin@gmail.com</a></dd>
-                  </dl>
-                  <dl class="contact-list">
-                    <dt>phones:</dt>
-                    <dd><a href="tel:#">+91 7568543012</a> <span>or</span> <a href="tel:#">+91 9571195353</a>
-                    </dd>
-                  </dl>
-                </div>
-                <div class="col-md-4 col-xl-3">
-                  <h5>Links</h5>
-                  <ul class="nav-list">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contacts</a></li>
-                    <li><a href="#">Pricing</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="row no-gutters social-container">
-              <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
-              <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
-              <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
-              <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
-            </div>
-          </footer>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Activités
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./Activités/gambit.html">Gambit</a>
+            <a class="dropdown-item" href="./Activités/justice.html">Justice</a>
+            <a class="dropdown-item" href="./Activités/menagerie.html"> Menagerie </a>
+            <a class="dropdown-item" href="./Activités/nights.html"> Nuits noires </a>
+            <a class="dropdown-item" href="./Activités/pvp.html"> L'Epreuve </a>
+            <a class="dropdown-item" href="./Activités/raids.html"> Raids </a>
+            <a class="dropdown-item" href="./Activités/raids.html"> Assauts </a>
+            <a class="dropdown-item" href="./Activités/ascendant.html"> Défis Ascendants </a>
+
+          </div>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link" href="./A propos/about.html">A propos <span class="sr-only">(current)</span></a>
+        </li>
 
 
 
 
-        
-        <script
-          src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-          crossorigin="anonymous"
-        ></script>
-        <script
-          src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-          integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-          crossorigin="anonymous"
-        ></script>
-        <script
-          src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-          integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-          crossorigin="anonymous"
-        ></script>
-      </body>
- 
+
+
+
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          Search
+        </button>
+      </form>
+    </div>
+  </nav>
+
+  <h1 class="mon-titre">
+    Accueil
+
+  </h1>
+  <p class="paragraphs">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum neque
+    maxime, beatae corporis nobis nam est animi. Incidunt, quidem! Ducimus
+    harum eveniet, dolorum aliquam doloremque nihil quibusdam officia atque?
+    Architecto! Vel incidunt amet perferendis in, animi eius hic veniam
+    asperiores laudantium magnam cumque natus unde totam quo beatae porro fuga
+    fugiat eveniet consequatur quaerat quas deserunt molestiae. Mollitia,
+    similique sapiente? Unde, aperiam debitis saepe, corporis reiciendis
+    dignissimos ducimus neque quod libero, commodi consectetur labore aut!
+    Voluptas, officia consequatur! Voluptates in ex, facere vel ab quae!
+    Quisquam consequatur nemo rem culpa! Mollitia, illum, sit voluptatum porro
+    magni voluptas animi architecto consequatur ex velit cumque similique nisi
+    debitis ea, minima nulla. Atque error exercitationem fugiat natus commodi?
+    Fugiat esse voluptatum id culpa. In saepe consequuntur hic, neque quae,
+    animi dolore quibusdam pariatur architecto doloribus veniam aperiam, amet
+    libero rerum. Eos eligendi iste delectus pariatur? Asperiores quis dolores
+    amet reiciendis distinctio odio quibusdam? Illum minus ipsa dolores
+    nostrum enim expedita distinctio magnam optio omnis? Eveniet voluptatum
+    porro omnis quibusdam aliquam fugiat dignissimos necessitatibus doloribus
+    corporis sed quas illo illum consequuntur, quam quod rerum. Facere tempore
+    voluptates officiis quidem ex odio optio natus hic laborum delectus
+    praesentium rerum facilis error repellendus aspernatur illo, odit ab ipsam
+    ratione molestias, a cum? Libero id reiciendis autem. Nisi voluptate unde
+    aliquam distinctio esse, quidem quod mollitia odit obcaecati officia
+    consectetur nihil iusto repudiandae laudantium nemo ipsum! Qui culpa
+    aperiam, exercitationem nulla suscipit reprehenderit cumque totam sit hic!
+    Ipsum cupiditate dolor, sint explicabo pariatur ab deserunt doloremque,
+    optio at, quos quaerat laudantium quidem eos facere nobis assumenda enim
+    vel! Esse ratione labore aperiam? Est eos sunt eius dolorem?
+  </p>
+
+  <p class="paragraphs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam maxime accusamus ducimus,
+    voluptas soluta ad iusto,
+    sint explicabo placeat repudiandae voluptate animi eius est voluptatum accusantium excepturi? Corrupti, modi
+    maiores?
+    Voluptatum, velit minima iure consequuntur exercitationem at dicta aliquam sit perferendis enim, architecto facere
+    non iste odit perspiciatis cupiditate doloribus molestiae temporibus alias deserunt repudiandae ducimus animi
+    accusamus laborum! Veritatis?
+    Pariatur perspiciatis deleniti quod laboriosam, porro obcaecati ut, cum, rem autem minima magni similique ea iste
+    alias! Fuga id necessitatibus corrupti! Quo rerum quod exercitationem omnis nesciunt impedit? Dolor, reprehenderit.
+    Molestias provident temporibus atque fugiat error laboriosam harum sed ut assumenda! Blanditiis consequuntur
+    doloremque quibusdam autem inventore dolorem, ducimus reiciendis neque dicta iusto ipsum, quisquam aspernatur
+    praesentium aliquid unde assumenda.
+    Error nemo fugit amet aliquam aut illum porro consequatur. Fugiat, possimus cum eveniet laboriosam cumque
+    dignissimos delectus, quia rem animi quas nobis soluta at est, cupiditate incidunt? Odio, maxime magni!
+    Explicabo ut voluptas nam maiores accusantium. Consectetur, nihil accusamus. Dignissimos, porro! Placeat quod ullam
+    quasi odio, assumenda id alias dignissimos blanditiis sequi ex vitae sit atque autem officia unde quis?
+    Itaque porro similique officiis laudantium odio quod soluta corrupti reiciendis dolores iusto? Cumque voluptatibus
+    expedita quibusdam exercitationem id voluptatum consequuntur minima? Quisquam quos vero, explicabo commodi maiores
+    dicta! Quod, incidunt?
+    Quo iste unde nemo alias tempora corrupti et fugiat accusantium minima reprehenderit cumque aliquam quas, excepturi
+    voluptatem commodi, veritatis dicta explicabo itaque! Repellendus, modi? Cum obcaecati sunt voluptatibus saepe
+    quasi!
+    Voluptatem maxime beatae, ex aspernatur iure nam repudiandae dolore, repellendus ipsam quisquam pariatur aliquid
+    consequuntur quo adipisci illum quas eveniet sunt doloribus! Placeat aut alias voluptate consectetur velit
+    perferendis nisi!
+    Dignissimos aliquid aut sint unde ipsum, delectus amet deleniti, quis esse vitae rem incidunt molestias ullam culpa
+    qui? Vel veritatis officia voluptates ex nesciunt labore, aut alias assumenda tenetur aliquid?
+    Nostrum a nam cupiditate voluptas repudiandae eum, voluptatibus consectetur dolorem. Possimus veniam dolore facilis
+    porro excepturi magnam cum laborum, voluptatibus libero illo alias similique vel quasi consectetur eius asperiores!
+    Totam.
+    Sed nihil nam vero, eveniet illum dicta nobis cum rem in nisi repellat eum tenetur iste repudiandae laborum fuga
+    recusandae dolorem quo ducimus ratione incidunt repellendus harum impedit. Accusantium, quisquam!
+    Doloribus, distinctio laborum a eius sed iusto facilis mollitia iste consequatur vel. Accusamus at maiores, sapiente
+    omnis hic molestiae voluptatibus, mollitia aliquam accusantium veniam itaque. Provident rerum inventore mollitia
+    cum!
+    Cumque corrupti, a praesentium id molestias aliquid mollitia architecto voluptatibus illum! Magnam ad, porro quam
+    at, repudiandae laboriosam odio voluptatibus quia illum error veniam? Nisi tempore earum exercitationem eos nulla.
+    Nam, et cumque doloribus minima dolor omnis suscipit necessitatibus nihil minus. Nisi culpa, laboriosam maiores,
+    iure quos provident tenetur molestias nemo at, dolores incidunt. Odio fuga autem esse laborum nam.</p>
+
+
+
+  <footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
+    <div class="container">
+      <div class="row row-50">
+        <div class="col-md-4 col-xl-5">
+          <p>L'Encyclopédie Destiny en français</p>
+          <div class="pr-xl-4">
+            <a class="brand" href="index.html"><img class="brand-logo-light" src="img/logopng.png" alt="destiny logo"
+                width="125" height="100" srcset="images/agency/logo-retina-inverse-280x74.png 2x">
+            </a>
+
+
+
+          </div>
+        </div>
+
+
+        <ul class="nav-list">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contacts</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+    <div class="row no-gutters social-container">
+      <div class="col"><a class="social-inner" href="#"><span
+            class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
+      <div class="col"><a class="social-inner" href="#"><span
+            class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
+      <div class="col"><a class="social-inner" href="#"><span
+            class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
+      <div class="col"><a class="social-inner" href="#"><span
+            class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
+    </div>
+  </footer>
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
 
 
 

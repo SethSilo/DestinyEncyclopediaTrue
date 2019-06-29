@@ -55,7 +55,7 @@ ol {
 }
 
 .mon-titre {
-  color: white;
+  color: rgba(172, 157, 157, 0.521);
   font-size: 70px;
 }
 
@@ -63,9 +63,17 @@ footer {
   position: fixed;
   bottom: 0px;
   width: 100%;
-  height: 100px;
+  height: 200px;
+}
+
+.paragraphs {
+  color: rgb(58, 54, 54);
 }
 
 body {
-  background-image: url(img/backgroundindex.png);
+  background-image: url(../img/background_all.jpg);
+  background-size: cover;
+
 }
+
+
