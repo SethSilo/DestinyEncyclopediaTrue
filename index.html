@@ -13,7 +13,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="description" content="L'Encyclopédie Destiny en français" />
+  <meta name="description" content="L'Encyclopédie Destiny" />
   <title>Index</title>
 
 
@@ -123,9 +123,17 @@
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+        <script>$("#search-criteria").on("keyup", function() {
+            var g = $(this).val().toLowerCase();
+            $(".fbbox .fix label").each(function() {
+                var s = $(this).text().toLowerCase();
+                $(this).closest('.fbbox')[ s.indexOf(g) !== -1 ? 'show' : 'hide' ]();
+            });
+        });​</script>
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
           Search
         </button>
+     
       </form>
     </div>
   </nav>
@@ -221,11 +229,11 @@
   <footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
     <div class="container">
       <div class="row row-50">
-        <div class="col-md-4 col-xl-4" >
-          <p class="footer_name">L'Encyclopédie Destiny en français</p>
+        <div class="col-md-4 col-xl-4">
+          <p class="footer_name">L'Encyclopédie Destiny</p>
           <div class="pr-xl-4">
             <a class="brand" href="index.html">
-              <img class="brand-logo-light" src="img/logopng.png" alt="destiny logo"
+              <img class="destiny_logo" src="img/logopng.png" alt="destiny logo"
                 width="125" height="100" srcset="images/agency/logo-retina-inverse-280x74.png 2x" >
             </a>
           </div>

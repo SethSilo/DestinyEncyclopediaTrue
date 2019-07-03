@@ -12,6 +12,7 @@
 .nav-list li {
   padding-top: 5px;
   padding-bottom: 3px;
+  padding-right: 150px;
   text-align: center;
   font-size: 20px;
 }
@@ -38,8 +39,9 @@ ol {
 }
 
 .footer_name {
-  color: rgba(172, 157, 157, 0.521);
+  color: rgb(255, 255, 255);
   font-size: 30px;
+  text-indent: -70px;
 }
 
 footer {
@@ -57,13 +59,13 @@ footer {
   padding: 10px;
 }
 
-.brand-logo-light {
-  object-position: 50% 50%;
+.destiny_logo {
+  align-items: center;
+  display: block;
 }
 
 .pr-xl-4 {
   object-position: 50% 50%;
-  align-content: center;
 }
 body {
   background-image: url(../img/background_all.jpg);
