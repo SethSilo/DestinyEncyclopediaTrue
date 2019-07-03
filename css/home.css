@@ -35,7 +35,7 @@ ol {
 .mon-titre {
   color: rgba(172, 157, 157, 0.521);
   font-size: 70px;
-  padding-inline: 350px;
+  padding-inline: 325px;
 }
 
 .footer_name {
@@ -51,10 +51,6 @@ footer {
   height: 210px;
 }
 
-.paragraphs {
-  color: rgb(58, 54, 54);
-}
-
 .container {
   padding: 10px;
 }
@@ -64,9 +60,6 @@ footer {
   display: block;
 }
 
-.pr-xl-4 {
-  object-position: 50% 50%;
-}
 body {
   background-image: url(../img/background_all.jpg);
   background-size: cover;
@@ -74,9 +67,24 @@ body {
 
 .base_text {
   color: rgb(58, 54, 54);
-  padding-left: 350px;
-  padding-right: 350px;
+  padding-left: 325px;
+  padding-right: 380px;
   font-size: 18px;
   text-align: left;
-  word-wrap: normal;
+  word-wrap: break-word;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 5px;
+  background-color: rgb(58, 54, 54);
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }

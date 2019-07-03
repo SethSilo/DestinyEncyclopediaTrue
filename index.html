@@ -24,7 +24,7 @@
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navigation</a>
+    <a class="navbar-brand" href="./index.html">Navigation</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -123,13 +123,7 @@
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-        <script>$("#search-criteria").on("keyup", function() {
-            var g = $(this).val().toLowerCase();
-            $(".fbbox .fix label").each(function() {
-                var s = $(this).text().toLowerCase();
-                $(this).closest('.fbbox')[ s.indexOf(g) !== -1 ? 'show' : 'hide' ]();
-            });
-        });​</script>
+       
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
           Search
         </button>
