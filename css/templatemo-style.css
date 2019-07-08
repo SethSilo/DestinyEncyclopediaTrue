@@ -1,0 +1,417 @@
+/*
+
+
+
+
+
+    Primary color         #99ccff
+    Primary bright color  #3399FF
+    Gray bg               #f6f6f6
+    Dark Gray bg          #eeeeee
+*/
+
+html {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a,
+button {
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.tm-bg-white-alpha {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.tm-bg-black-alpha {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tm-bg-gray {
+  background-color: #f6f6f6;
+}
+
+.tm-bg-dark-gray {
+  background-color: #eeeeee;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+p {
+  line-height: 1.7;
+}
+
+.tm-text-white {
+  color: rgb(58, 54, 54);
+}
+
+.columns-bg {
+  background: -webkit-linear-gradient(-45deg, #34495e 0%, #999999 100%);
+}
+
+.container-fluid {
+  max-width: 1310px;
+}
+
+.tm-section-logo {
+  padding-top: 170px;
+  padding-bottom: 0;
+}
+
+.tm-section-logo-short {
+  padding-top: 100px;
+}
+
+.tm-p-1-section-1 {
+  margin-bottom: 80px;
+}
+
+#our_place {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.tm-section-4 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#gallery {
+  padding-top: 115px;
+  padding-bottom: 110px;
+}
+
+.tm-section-contact {
+  padding-top: 110px;
+  padding-bottom: 90px;
+}
+
+#outro {
+  padding-top: 90px;
+}
+
+#footer {
+  padding-top: 30px;
+  padding-bottom: 55px;
+}
+
+.tm-bg-primary {
+  background-color: #a8ff99;
+}
+
+.tm-text-primary {
+  color: rgb(218, 209, 209);
+}
+
+.tm-text-primary-bright {
+  color: #3aff33;
+}
+
+.tm-hr-primary-bright {
+  border-color: #44ff33;
+}
+
+.tm-hr-white {
+  border-color: white;
+}
+
+.tm-text-secondary {
+  color: #999999;
+}
+
+.tm-text-gray {
+  color: rgb(58, 54, 54);
+}
+
+.tm-text-accent {
+  color: rgb(53, 50, 50);
+}
+
+.tm-section-title-2 {
+  font-size: 1.8rem;
+  text-align: right;
+}
+
+.tm-section-title-underline {
+  border-top: 1px solid black;
+  max-width: 500px;
+  margin-right: 0;
+  width: 85%;
+}
+
+.tm-site-name-container {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tm-site-name-container-inner {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tm-site-name {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.tm-site-description {
+  font-size: 1.3rem;
+  margin-bottom: 50px;
+}
+
+.tm-section-text-container {
+  padding: 0 50px;
+}
+
+.tm-section-text-container-2 {
+  padding: 20px 55px 30px;
+  max-width: 640px;
+}
+
+.tm-section-text-container-3 {
+  padding: 64px 68px;
+}
+
+.tm-section-col-4 {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.tm-section-text-container-4 {
+  padding: 40px 55px 0;
+}
+
+.tm-footer-text-container {
+  padding: 0 70px;
+}
+
+.tm-section-text-container-5 {
+  max-width: 430px;
+  padding-right: 85px;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.tm-section-text-container-6 {
+  padding: 0 55px 60px;
+}
+
+.tm-section-text-container-8 {
+  padding: 64px 68px;
+}
+
+.tm-section-title-mb {
+  margin-bottom: 30px;
+}
+
+.tm-section-title-mb-2 {
+  margin-bottom: 50px;
+}
+
+.tm-img-right {
+  margin-left: -1px; /* to fix 1 px gap in Chrome */
+}
+
+.tm-img-left-container,
+.tm-text-left-container {
+  padding-right: 0;
+}
+
+.tm-img-right-container {
+  padding-left: 0;
+}
+
+/* Common style */
+.grid {
+  overflow: auto;
+  display: flex;
+  align-items: baseline;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid figure {
+  position: relative;
+  overflow: hidden;
+  background: #3085a3;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.grid figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.8;
+}
+
+.grid figure figcaption {
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  /* font-size: 1.25em; */
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+  pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+.grid figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+}
+
+.grid figure h2 span {
+  font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+  margin: 0;
+}
+
+.grid figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+
+/*---------------*/
+/***** Duke *****/
+/*---------------*/
+
+figure.effect-duke {
+  background: -webkit-linear-gradient(-45deg, #34495e 0%, #cc6055 100%);
+  background: linear-gradient(-45deg, #34495e 0%, #cc6055 100%);
+}
+
+.tm-contact-section {
+  font-size: 0.95rem;
+}
+
+.tm-contact-left {
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: 0;
+  padding: 70px 45px 70px 70px;
+}
+
+.tm-contact-left,
+.tm-contact-form-container {
+  max-width: 450px;
+}
+
+.tm-contact-link {
+  color: #313638;
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.tm-p-2-section-1 {
+  margin-top: 70px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.tm-p-3-section-1 {
+  padding-top: 82px;
+}
+
+.tm-p-3-section-3 {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.tm-p-3-section-contact {
+  padding-top: 60px;
+}
+
+.tm-section-underline {
+  width: 50%;
+}
+
+.btn {
+  padding: 11px 40px;
+  border-radius: 0;
+}
+
+.btn-primary {
+  background-color: #99ccff;
+  border-color: #99ccff;
+}
+
+.btn-secondary {
+  background-color: white;
+  border-color: white;
+  color: #3399ff;
+}
+
+.btn-secondary:hover {
+  color: #3399ff;
+  background-color: #c5c7ca;
+  border-color: #c5c7ca;
+}
+
+hr {
+  border-color: black;
+}
+
+.tm-hr-mb {
+  margin-bottom: 46px;
+}
+
+.tm-p-mb {
+  margin-bottom: 45px;
+}
+
+.tm-text-right-container {
+  padding-left: 0;
+}
+
+.tm-section-text-container-7 {
+  padding: 65px 140px;
+}
